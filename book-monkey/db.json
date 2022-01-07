@@ -1,0 +1,190 @@
+{
+  "books": [
+    {
+      "isbn": "9783864907791",
+      "title": "Angular",
+      "authors": [
+        "Ferdinand Malcher",
+        "Johannes Hoppe",
+        "Danny Koppenhagen"
+      ],
+      "published": "2020-09-01T00:00:00.000Z",
+      "subtitle": "Grundlagen, fortgeschrittene Themen und Best Practices – inkl. RxJS, NgRx & PWA (iX Edition)",
+      "rating": 5,
+      "thumbnails": [
+        {
+          "url": "https://api4.angular-buch.com/images/angular_auflage3.jpg",
+          "title": "Front Cover"
+        }
+      ],
+      "description": "Lernen Sie Angular mit diesem Praxisbuch!\n\nMit einem anspruchsvollen Beispielprojekt führen wir Sie durch die Welt von Angular. Lernen Sie Schritt für Schritt, wie Sie modulare Single-Page-Anwendungen entwickeln.\n\nPraktisch: Der Programmcode zu jeder einzelnen Entwicklungsphase ist auf GitHub verfügbar. So können Sie alle Schritte gut nachvollziehen und auch Teile überspringen.\n\nDie Autoren Ferdinand Malcher, Johannes Hoppe und Danny Koppenhagen sind erfahrene Workshopleiter, Entwickler und internationale Konferenzsprecher. Aufgrund ihres Engagements rund um das Buch und Angular wurden Ferdinand und Johannes als Google Developer Experts (GDE) ausgezeichnet. In diesem praktischen Nachschlagewerk vermitteln sie die Best Practices aus ihrer täglichen Arbeit mit Angular.\n\nNeben den Grundlagen werden auch behandelt:\n\n• Reaktive Programmierung mit RxJS\n• State Management mit Redux und NgRx\n• Testing mit Jasmine, Karma und Protractor\n• Routing, Guards und Modulsystem\n• HTTP und Interceptoren\n• Formularverarbeitung\n• Dependency Injection und Services\n• Internationalisierung (i18n)\n• Server-Side Rendering\n• Progressive Web Apps (PWA) und NativeScript\n\nDas Buch setzt Vorkenntnisse in JavaScript, HTML und CSS voraus. Wer noch nicht mit TypeScript vertraut ist, findet hier eine kompakte Einführung.\n\nAuf der Website zum Buch werden außerdem regelmäßig Aktualisierungen und Neuigkeiten rund um Angular veröffentlicht.\n\nNeu in dieser Auflage\n• Durchgängig aktualisiert auf Angular 10 und neuere Versionen\n• Deployment mit Docker\n• Progressive Web Apps (PWA)\n• Angular Elements\n• OAuth 2 und OpenID Connect\n• Viele Ergänzungen und Korrekturen"
+    },
+    {
+      "isbn": "9783864906466",
+      "title": "Angular",
+      "authors": [
+        "Ferdinand Malcher",
+        "Johannes Hoppe",
+        "Danny Koppenhagen"
+      ],
+      "published": "2019-04-30T00:00:00.000Z",
+      "subtitle": "Grundlagen, fortgeschrittene Themen und Best Practices – mit NativeScript und NgRx",
+      "rating": 4,
+      "thumbnails": [
+        {
+          "url": "https://api4.angular-buch.com/images/angular_auflage2.jpg",
+          "title": "Front Cover"
+        },
+        {
+          "url": "https://api4.angular-buch.com/images/angular_auflage2_back.jpg",
+          "title": "Rückseite"
+        },
+        {
+          "url": "https://api4.angular-buch.com/images/angular_auflage2_update-note.jpg",
+          "title": "Update Hinweis"
+        },
+        {
+          "url": "https://api4.angular-buch.com/images/angular_auflage2_book+ebook.jpg",
+          "title": "Als gebundenes Buch und E-Book verfügbar"
+        }
+      ],
+      "description": "Lernen Sie die Grundlagen von Angular mit diesem Praxisbuch!\n\nMit einem anspruchsvollen Beispielprojekt führen wir Sie durch die Welt von Angular. Lernen Sie Schritt für Schritt, wie Sie modulare Single-Page-Anwendungen entwickeln.\n\nPraktisch: Der Programmcode zu jeder einzelnen Entwicklungsphase ist auf GitHub verfügbar. So können Sie alle Schritte gut nachvollziehen und auch Teile überspringen.\n\nDie Autoren sind erfahrene Workshopleiter und internationale Konferenzsprecher. In diesem praktischen Nachschlagewerk vermitteln sie die Best Practices aus der täglichen Arbeit mit Angular.\n\nNeben den Grundlagen werden auch behandelt:\n\n• Reaktive Programmierung mit RxJS\n• State-Management mit Redux\n• Testing mit Jasmine, Karma und Protractor • Routing und Modulsystem\n• HTTP und Interceptoren\n• Formularverarbeitung\n• Dependency Injection und Services\n• Internationalisierung (i18n)\n• Mobile Anwendungen mit NativeScript\n• Server-Side Rendering\n\nDas Buch setzt Vorkenntnisse in JavaScript, HTML und CSS voraus. Wer noch nicht mit TypeScript vertraut ist, findet hier eine kompakte Einführung.\n\nAuf der Website zum Buch werden außerdem regelmäßig Aktualisierungen und Neuigkeiten rund um Angular veröffentlicht.\n\nNeu in dieser Auflage\n\n• Durchgängig aktualisiert auf Angular 8 und neuere Versionen\n• Kompakter Schnelleinstieg in Angular mit Stackblitz\n• Ausführliches Kapitel zu RxJS und Observables\n• Redux mit Reactive Extensions for Angular (NgRx)\n• Server-Side Rendering mit Angular Universal\n• HTTP-Interceptoren"
+    },
+    {
+      "isbn": "9783864906497",
+      "title": "Git",
+      "authors": [
+        "René Preißel",
+        "Bjørn Stachmann"
+      ],
+      "published": "2019-08-22T00:00:00.000Z",
+      "subtitle": "Dezentrale Versionsverwaltung im Team – Grundlagen und Workflows",
+      "rating": 3,
+      "thumbnails": [
+        {
+          "url": "https://api4.angular-buch.com/images/git.jpg",
+          "title": "Front Cover"
+        },
+        {
+          "url": "https://api4.angular-buch.com/images/git_back.jpg",
+          "title": "Rückseite"
+        }
+      ],
+      "description": "Git ist eine der beliebtesten Versionsverwaltungen. Die Vielfalt an Kommandos, Optionen und Konfigurationen wirkt anfangs aber oft einschüchternd – obwohl die Grundkonzepte einfach sind und man schon mit wenigen davon effektiv arbeiten kann.\n\nDie Autoren dieses Buches bieten daher zunächst eine kompakte Einführung in die Konzepte und jene Befehle, die man im Entwickleralltag wirklich benötigt. Anschließend widmen sie sich ausführlich den wichtigsten Workflows bei der Softwareentwicklung im Team und zeigen, wie Git dort eingesetzt wird.\n\nBehandelt werden u.a. folgende Workflows:\n\n• Ein Projekt aufsetzen\n• Mit Feature-Branches entwickeln\n• Gemeinsam auf einem Branch arbeiten\n• Kontinuierlich Releases durchführen\n• Periodisch Releases durchführen\n• Große Projekte aufteilen\n\nSie lernen in diesem Buch alle wichtigen Git-Befehle und -Funktionen kennen und erfahren, wie Sie sie effektiv anwenden – sowohl über die Kommandozeile als auch mit Tools wie Atlassian Source Tree. Darüber hinaus erfahren Sie, wie Git mit dem Build-Server Jenkins genutzt werden kann oder wie Sie auf Plattformen wie GitHub oder GitLab mit Pull-Requests arbeiten. Zudem lernen Sie fortgeschrittene Features kennen, wie z.B. Submodules, Subtrees und Worktrees.\n\nDie 5. Auflage wurde Dank des Feedbacks unserer Leser noch einmal gründlich überarbeitet und ist jetzt an vielen Stellen präziser und besser verständlich. Da Git inzwischen bei vielen Unternehmen schon lange im Einsatz ist, werden die dort versionierten Projekte auch immer größer. Deshalb ist ein neues Kapitel voll mit Tipps zum Umgang mit besonders großen Repositorys hinzugekommen."
+    },
+    {
+      "isbn": "9783864902079",
+      "title": "Testgetriebene Entwicklung mit JavaScript",
+      "authors": [
+        "Sebastian Springer"
+      ],
+      "published": "2015-02-26T00:00:00.000Z",
+      "subtitle": "Das Handbuch für den professionellen Programmierer",
+      "rating": 3,
+      "thumbnails": [
+        {
+          "url": "https://api4.angular-buch.com/images/tdd.jpg",
+          "title": "Front Cover"
+        }
+      ],
+      "description": "Entwickeln oder warten Sie JavaScript-Webapplikationen und haben immer ein ungutes Gefühl, wenn Sie Ihre Software in Betrieb nehmen? Dann wird es höchste Zeit, dass Sie sich mit testgetriebener Entwicklung vertraut machen. Dieses Buch zeigt JavaScript-Entwicklern, wie Test-Driven Development (TDD) in der Praxis funktionieren kann.\n\nAnschaulich macht Sie Sebastian Springer zunächst mit den allgemeinen TDD-Grundlagen vertraut. Er zeigt, wie Sie diese auf das JavaScript-Umfeld übertragen können und stellt verschiedene Testframeworks vor (Jasmine, QUnit, Karma und JsTestDriver). In einer ausführlichen Beispielanwendung können Sie das Gelernte dann im Red-Green-Refactor- Zyklus praktisch nachvollziehen und üben.\n\nDarauf aufbauend lernen Sie weitere Facetten der testgetriebenen Entwicklung mit JavaScript kennen, die für Ihre tägliche Arbeit hilfreich oder notwendig sind, u.a.:\n\n• Testinfrastruktur für mehrere Browser\n• Spys, Stubs und Mocks\n• Abhängigkeiten vom DOM\n• Asynchrone Operationen\n• Testen von Bestandscode\n• Node.js-Anwendungen testgetrieben entwickeln\n• Werkzeuge, die das Testen leichter machen\n\nTDD-Einsteiger haben nach der Lektüre einen Überblick über TDD im JavaScript-Umfeld und können eigene Projekte testgetrieben durchführen. JavaScript-Entwickler, die bereits testgetrieben entwickeln, können die fortgeschrittenen Kapitel zum Nachschlagen und Vertiefen verwenden.\n\nVorausgesetzt werden Erfahrungen in der JavaScript-Entwicklung."
+    },
+    {
+      "isbn": "1213456987",
+      "title": "tuitzit",
+      "authors": [
+        "fhdftz gfkzuizuizui"
+      ],
+      "published": "2021-12-07T00:00:00.000Z",
+      "subtitle": "iuizuizui",
+      "rating": 3,
+      "thumbnails": [
+        {
+          "url": "https://api4.angular-buch.com/images/placeholder_book.svg",
+          "title": "Kein Vorschaubild verfügbar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "isbn": "9783960090922",
+      "title": "Vue.js",
+      "authors": [
+        "Lars Peterke"
+      ],
+      "published": "2019-02-28T00:00:00.000Z",
+      "subtitle": "kurz & gut",
+      "rating": 3,
+      "thumbnails": [
+        {
+          "url": "https://api4.angular-buch.com/images/vue.jpg",
+          "title": "Front Cover"
+        }
+      ],
+      "description": "• kompakte Einführung für alle, die sich rasch in das beliebte JavaScript-Framework einarbeiten möchten\n• deckt Grundlagen, aber auch weiterführende Themen wie Vue CLI, Single File Components und Transitions ab\n• mit Tipps für die Entwicklerpraxis\n\nDas Open-Source-Projekt Vue.js hat sich zu einem der populärsten JavaScript-Frameworks für das Erstellen von Benutzeroberflächen entwickelt. Der Kern von Vue.js konzentriert sich auf den View-Layer einer Webanwendung und ist daher besonders performant und schlank. Durch viele verfügbare Erweiterungen kann Vue.js aber auch als vollumfängliches Web Application Framework genutzt werden, mit dem auch komplexe Single-Page-Anwendungen möglich sind.\n\nMit diesem Buch erhalten Entwickler einen kompakten und schnellen Überblick über den Funktionsumfang von Vue.js. Es behandelt unter anderem: die Grundlagen von Vue.js, Vue Components sowie alle Aspekte der Vue-API. Trotz seines kompakten Formats deckt das Taschenbuch viele weitere Themen ab, die für Entwickler relevant sind, wie die Umsetzung komplexerer Vue-Projekte mit Vue CLI, Single File Components und Transitions."
+    },
+    {
+      "isbn": "9783864905520",
+      "title": "React",
+      "authors": [
+        "Nils Hartmann",
+        "Oliver Zeigermann"
+      ],
+      "published": "2019-12-12T00:00:00.000Z",
+      "subtitle": "Grundlagen, fortgeschrittene Techniken und Praxistipps – mit TypeScript und Redux",
+      "rating": 3,
+      "thumbnails": [
+        {
+          "url": "https://api4.angular-buch.com/images/react.jpg",
+          "title": "Front Cover"
+        },
+        {
+          "url": "https://api4.angular-buch.com/images/react_back.jpg",
+          "title": "Rückseite"
+        }
+      ],
+      "description": "Das bewährte und umfassende Praxisbuch zu React – jetzt komplett aktualisiert und erweitert!\n\n• Vom Einstieg bis zur professionellen React-Anwendung\n• Lernen mit einem durchgehenden Beispiel\n• Mit Tipps aus der Entwicklungspraxis der erfahrenen Autoren, z.B. zur Performance-Optimierung\n• Mit einer Einführung in TypeScript\n\nMit diesem Buch lernst du von Grund auf, wie du mit React professionelle Single-Page-Anwendungen entwickelst.\n\nIn der Neuauflage ihres bewährten React-Arbeitsbuchs zeigen dir Nils Hartmann und Oliver Zeigermann alles Wesentliche von den Anfängen bis zur produktreifen React-Anwendung. Sie erklären dir dabei, wie du mit TypeScript typsicher und nachhaltig entwickelst und große Anwendungen u.a. mit dem React Context und Redux strukturierst. An vielen Stellen versorgen sie dich zudem mit hilfreichen Tipps aus ihrer eigenen React-Entwicklungspraxis.\n\nUnter anderem wirst du folgende Themen kennenlernen:\n\n• Anwendungen entwickeln mit der Hooks API und TypeScript\n• Komponenten gestalten mit CSS\n• Automatisiertes Testen mit der React Testing Library\n• Client-Server-Kommunikation mit REST und GraphQL\n• Navigation im Browser mit dem React Router\n• Statemanagement mit React Context und Redux\n• Serverseitiges Rendern von React-Anwendungen\n• Strategien zur Performance-Optimierung\n\nEigene Kapitel widmen sich den eingesetzten modernen JavaScript-Features sowie TypeScript, sodass zum Verständnis des Buches Kenntnisse von ES5 ausreichen.\n\nNeu in der 2. Auflage sind unter anderem:\n\n• Die React Hooks API\n• Testen mit der React Testing Library\n• Typsichere Anwendungen mit TypeScript\n• GraphQL-Clients mit React"
+    },
+    {
+      "isbn": "9783864903571",
+      "title": "Angular",
+      "authors": [
+        "Gregor Woiwode",
+        "Ferdinand Malcher",
+        "Danny Koppenhagen",
+        "Johannes Hoppe"
+      ],
+      "published": "2017-05-22T12:00:00.000Z",
+      "subtitle": "Grundlagen, fortgeschrittene Techniken und Best Practices mit TypeScript - ab Angular 4, inklusive NativeScript und Redux",
+      "rating": 2,
+      "thumbnails": [
+        {
+          "url": "https://api4.angular-buch.com/images/angular_auflage1.jpg",
+          "title": "Front Cover"
+        },
+        {
+          "url": "https://api4.angular-buch.com/images/angular_auflage1_back.jpg",
+          "title": "Rückseite"
+        }
+      ],
+      "description": "Egal, ob Sie schon Erfahrung mit AngularJS 1.x haben oder nicht – mit diesem Buch gelingt Ihnen der schnelle Einstieg in das neue Angular-Framework ab Version 4. Anhand eines anspruchsvollen Beispielprojekts lernen Sie Schritt für Schritt, wie Sie strukturierte und modularisierte Single-Page-Anwendungen entwickeln.\n\nPraktisch: Der Programmcode zu jeder einzelnen Entwicklungsphase ist auf GitHub verfügbar. So können Sie einsteigen, wo Sie wollen, und nach Wunsch Entwicklungsschritte überspringen.\n\nIn einem kompakten Schnellstart-Kapitel erstellen Sie zunächst eine erste funktionierende Anwendung. Danach machen Sie sich mit grundlegenden Angular-Konzepten und Techniken vertraut: Angular CLI, Komponenten und Template-Syntax, HTTP-Anbindung, Routing, Formulare. Weiter geht es dann mit fortgeschrittenen Themen wie\n\n• Pipes und Direktiven\n• RxJS (Reactive Extensions)\n• Lose Kopplung mittels Dependency Injection\n• Internationalisierung (i18n)\n• Testing mit Karma und Protractor\n• Debugging mit Augury\n• Ahead-of-Time-Kompilierung (AOT)\n• Deployment\n\nBesonders hervorzuheben sind zwei für Angular-Entwickler spannende Themen:\n\n• Mobile Apps mit NativeScript entwickeln\n• Mit Redux Architekturen vereinfachen\n\nDas Buch setzt lediglich Kenntnisse in JavaScript, HTML und CSS voraus. Wer noch nicht mit TypeScript vertraut ist, findet eine Einführung dazu.\n\nNach der Lektüre sind Sie für den Projektalltag mit Angular gewappnet und können robuste Webanwendungen damit entwickeln."
+    },
+    {
+      "isbn": "1234567890",
+      "title": "Mekke Resullerin Yolu",
+      "authors": [
+        "Ali Ünal"
+      ],
+      "published": "2022-01-02T17:22:25.599Z",
+      "subtitle": "güzel bir kitap",
+      "rating": 0,
+      "thumbnails": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ],
+      "description": "test"
+    }
+  ]
+}

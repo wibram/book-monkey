@@ -1,0 +1,21 @@
+<div class="ui seach" [class.loading]="isLoading">
+    <div class="ui icon input">
+        <input type="text" class="prompt" #input
+            (keyup)="keyUp$.next(input.value)" />
+        <i class="search icon"></i>
+    </div>
+    <div *ngIf="foundBooks.length" class="results transition visible">
+        <div class="searchResultBox">
+        <h4>Suchergebnisse</h4>
+        <ol>
+            <a class="result"
+                *ngFor="let book of foundBooks"
+                [routerLink]="['..', 'books', book.isbn]">
+                <li>{{ book.title }}
+                    <p class="description">{{ book.subtitle }}</p>
+                </li>
+            </a>
+        </ol>
+        </div>
+    </div>
+</div>

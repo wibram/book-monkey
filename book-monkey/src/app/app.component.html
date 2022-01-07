@@ -1,0 +1,18 @@
+<div class="mainBox">
+    <div class="ui menu">
+        <a routerLink="home" class="item" routerLinkActive="active">Home</a>
+        <a routerLink="books" class="item" routerLinkActive="active">Bücher</a>
+        <a routerLink="admin" class="item" routerLinkActive="active">Administration</a>
+    </div>
+    <router-outlet></router-outlet>
+    <!-- <bm-book-list
+        *ngIf="viewState === ViewState.List"
+        (showDetailsEvent)="showDetails($event)">
+    </bm-book-list>
+
+    <bm-book-details
+        *ngIf="viewState === ViewState.Details"
+        [book]="book"
+        (showListEvent)="showList()">
+    </bm-book-details> -->
+</div>
