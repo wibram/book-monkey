@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { DateValueAccessorModule } from 'angular-date-value-accessor';
 
@@ -17,6 +18,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { SearchComponent } from './search/search.component';
 import { BookFormComponent } from './book-form/book-form.component';
 import { CreateBookComponent } from './create-book/create-book.component';
+import { FormMessagesComponent } from './form-messages/form-messages.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +30,15 @@ import { CreateBookComponent } from './create-book/create-book.component';
     NotfoundComponent,
     SearchComponent,
     BookFormComponent,
-    CreateBookComponent
+    CreateBookComponent,
+    FormMessagesComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     DateValueAccessorModule
   ],
   providers: [

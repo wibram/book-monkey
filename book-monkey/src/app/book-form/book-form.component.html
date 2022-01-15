@@ -1,14 +1,18 @@
 <form class="ui form" #bookForm="ngForm" (ngSubmit)="submitForm()">
     <label for="title">Buchtitel</label>
-    <input name="title" [(ngModel)]="book.title" required />
+    <input name="title" [(ngModel)]="book.title" required #titleInput="ngModel" />
+    <bm-form-messages [control]="titleInput.control" controlName="title"></bm-form-messages>
     <label for="subtitle">Untertitel</label>
     <input name="subtitle" [(ngModel)]="book.subtitle" />
     <label for="isbn">ISBN</label>
-    <input name="isbn" [(ngModel)]="book.isbn" required minlength="10" maxlength="13" />
+    <input name="isbn" [(ngModel)]="book.isbn" required minlength="10" maxlength="13" #isbnInput="ngModel" />
+    <bm-form-messages [control]="isbnInput.control" controlName="isbn"></bm-form-messages>
     <label for="published">Erscheinungsjahr</label>
-    <input type="date" name="published" [(ngModel)]="book.published" useValueAsDate required />
+    <input type="date" name="published" [(ngModel)]="book.published" useValueAsDate required #pubInput="ngModel" />
+    <bm-form-messages [control]="pubInput.control" controlName="published"></bm-form-messages>
     <label for="authors">Autor</label>
-    <input name="authors" [(ngModel)]="book.authors[0]" required />
+    <input name="authors" [(ngModel)]="book.authors[0]" required #authorInput="ngModel" />
+    <bm-form-messages [control]="authorInput.control" controlName="authors"></bm-form-messages>
     <label for="description">Beschreibung</label>
     <textarea name="description" [(ngModel)]="book.description"></textarea>
     <label for="url">Bild</label>
