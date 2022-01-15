@@ -185,6 +185,23 @@
         }
       ],
       "description": "test"
+    },
+    {
+      "title": "Kabale und Liebe",
+      "subtitle": "Viel Kabale und ein wenig Liebe",
+      "isbn": "1122334455",
+      "description": "Schillers Meisterwerk",
+      "authors": [
+        "Friedrich Schiller",
+        "Schiller Friedrich"
+      ],
+      "thumbnails": [
+        {
+          "title": "fs",
+          "url": "https://www.teamop.de/images/xdt.png"
+        }
+      ],
+      "published": "1813-02-01T00:00:00.000Z"
     }
   ]
 }
