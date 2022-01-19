@@ -29,17 +29,20 @@
     <div class="ui small images">
         <img *ngFor="let thumbnail of book.thumbnails" [src]="thumbnail.url" />
     </div>
-    <!-- <button class="ui red button"
-        (click)="showBookList()">
-        Zurück zur Buchliste
-    </button> -->
+    <button class="ui tiny red labeled icon button" (click)="removeBook()">
+        <i class="remove icon"></i> Buch löschen
+    </button>
+    <a class="ui tiny yellow labeled icon button" [routerLink]="['../../admin/edit', book.isbn]">
+        <i class="write icon"></i> Buch bearbeiten
+    </a>
 </div>
 <ng-template #loading>
     <div class="ui active centered inline loader"></div>
 </ng-template>
+<br />
 <div>
     <!-- <a routerLink="/books">Zurück zur Bücherliste</a> -->
-    <a class="ui red button" routerLink="/books">
+    <a class="ui blue button" routerLink="/books">
         <i class="left arrow icon"></i>
         Zurück zur Buchliste
     </a>

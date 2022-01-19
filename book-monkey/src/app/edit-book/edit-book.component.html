@@ -1,0 +1,2 @@
+<h1>Buch editieren</h1>
+<bm-book-form *ngIf="book" (submitBook)="saveBook($event)" [book]="book" [editing]="true"></bm-book-form>

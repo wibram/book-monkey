@@ -74,15 +74,18 @@ export class BookService {
     }
 
     addBook( book: Book ): Observable<Book> {
-        return this.http.post<Book>( this.APIUrl, book, httpOptions );
+        return this.http.post<Book>( this.APIUrl, book, httpOptions )
+            .pipe( catchError( this.errorHandler ) );
     }
 
     updateBook( book: Book ): Observable<Book> {
-        return this.http.put<Book>( this.getUrlWithId( book.isbn ), book, httpOptions );
+        return this.http.put<Book>( this.getUrlWithId( book.isbn ), book, httpOptions )
+            .pipe( catchError( this.errorHandler ) );
     }
 
     deleteBook( book: Book ): Observable<Book> {
-        return this.http.delete<Book>( this.getUrlWithId( book.isbn ) );
+        return this.http.delete<Book>( this.getUrlWithId( book.isbn ) )
+            .pipe( catchError( this.errorHandler ) );
     }
 
     private getUrlWithId( isbn: string ): string {

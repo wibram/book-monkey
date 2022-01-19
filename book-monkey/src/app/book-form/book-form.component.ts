@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter, ViewChild } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, ViewChild, Input } from '@angular/core';
 import { BookFactory } from '../shared/book-factory';
 import { Book, Thumbnail } from '../shared/book';
 import { FormGroup, FormBuilder, NgForm, Validators, FormArray } from '@angular/forms';
@@ -12,6 +12,8 @@ export class BookFormComponent implements OnInit {
   //book: Book = BookFactory.empty();
   bookForm!: FormGroup;
 
+  @Input() book?: Book;
+  @Input() editing: boolean = false;
   @Output() submitBook = new EventEmitter<Book>();
   //@ViewChild( 'bookForm', { static: true } ) bookForm?: NgForm;
 
@@ -21,13 +23,35 @@ export class BookFormComponent implements OnInit {
     this.initForm();
   }
 
+  ngOnChanges(): void {
+    this.initForm();
+    this.setFormValues( this.book );
+  }
+
+  setFormValues(book: Book | undefined) {
+    if ( book ) {
+      this.bookForm?.patchValue( book );
+
+      this.bookForm?.setControl( 'authors', this.buildAuthorsArray( book.authors ) );
+
+      if ( book.thumbnails ) {
+        this.bookForm?.setControl( 'thumbnails', this.buildThumbnailsArray( book.thumbnails ) );
+      }
+      else {
+        this.bookForm?.removeControl( 'thumbnails' );
+        this.addThumbnailControl();
+      }
+    }
+  }
+
   private initForm() {
     if ( this.bookForm ) { return; }
 
     this.bookForm = this.fb.group({
       title: ['', Validators.required],
       subtitle: [''],
-      isbn: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(13)]],
+      isbn: [{value: '', disabled: this.editing},
+        [Validators.required, Validators.minLength(10), Validators.maxLength(13)]],
       description: [''],
       authors: this.buildAuthorsArray(['']),
       thumbnails: this.buildThumbnailsArray([{title: '', url: ''}]),
@@ -38,11 +62,14 @@ export class BookFormComponent implements OnInit {
   submitForm(): void {
     const formValue = this.bookForm?.value;
 
+    const isbn = this.editing ? this.book?.isbn : formValue.isbn;
+
     const authors = formValue.authors.filter( (author: string) => author );
     const thumbnails = formValue.thumbnails.filter( (thumbnail: Thumbnail) => thumbnail.url );
 
     const newBook: Book = {
       ...formValue,
+      isbn,
       authors,
       thumbnails
     };
