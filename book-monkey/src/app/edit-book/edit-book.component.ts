@@ -31,4 +31,8 @@ export class EditBookComponent implements OnInit {
       this.router.navigate(['../../..', 'books', book.isbn], { relativeTo: this.route } );
     });
   }
+
+  cancelBook(): void {
+    this.router.navigate(['../../..', 'books'], { relativeTo: this.route } );
+  }
 }

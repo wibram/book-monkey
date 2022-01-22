@@ -90,7 +90,7 @@
       "description": "Entwickeln oder warten Sie JavaScript-Webapplikationen und haben immer ein ungutes Gefühl, wenn Sie Ihre Software in Betrieb nehmen? Dann wird es höchste Zeit, dass Sie sich mit testgetriebener Entwicklung vertraut machen. Dieses Buch zeigt JavaScript-Entwicklern, wie Test-Driven Development (TDD) in der Praxis funktionieren kann.\n\nAnschaulich macht Sie Sebastian Springer zunächst mit den allgemeinen TDD-Grundlagen vertraut. Er zeigt, wie Sie diese auf das JavaScript-Umfeld übertragen können und stellt verschiedene Testframeworks vor (Jasmine, QUnit, Karma und JsTestDriver). In einer ausführlichen Beispielanwendung können Sie das Gelernte dann im Red-Green-Refactor- Zyklus praktisch nachvollziehen und üben.\n\nDarauf aufbauend lernen Sie weitere Facetten der testgetriebenen Entwicklung mit JavaScript kennen, die für Ihre tägliche Arbeit hilfreich oder notwendig sind, u.a.:\n\n• Testinfrastruktur für mehrere Browser\n• Spys, Stubs und Mocks\n• Abhängigkeiten vom DOM\n• Asynchrone Operationen\n• Testen von Bestandscode\n• Node.js-Anwendungen testgetrieben entwickeln\n• Werkzeuge, die das Testen leichter machen\n\nTDD-Einsteiger haben nach der Lektüre einen Überblick über TDD im JavaScript-Umfeld und können eigene Projekte testgetrieben durchführen. JavaScript-Entwickler, die bereits testgetrieben entwickeln, können die fortgeschrittenen Kapitel zum Nachschlagen und Vertiefen verwenden.\n\nVorausgesetzt werden Erfahrungen in der JavaScript-Entwicklung."
     },
     {
-      "title": "tuitziti",
+      "title": "tuitzit",
       "subtitle": "iuizuizui",
       "description": "",
       "published": "2021-12-07T00:00:00.000Z",

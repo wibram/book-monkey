@@ -2,6 +2,7 @@ import { Component, OnInit, Output, EventEmitter, ViewChild, Input } from '@angu
 import { BookFactory } from '../shared/book-factory';
 import { Book, Thumbnail } from '../shared/book';
 import { FormGroup, FormBuilder, NgForm, Validators, FormArray } from '@angular/forms';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'bm-book-form',
@@ -15,9 +16,10 @@ export class BookFormComponent implements OnInit {
   @Input() book?: Book;
   @Input() editing: boolean = false;
   @Output() submitBook = new EventEmitter<Book>();
+  @Output() cancelBook = new EventEmitter();
   //@ViewChild( 'bookForm', { static: true } ) bookForm?: NgForm;
 
-  constructor( private fb: FormBuilder ) { }
+  constructor( private fb: FormBuilder, private route: ActivatedRoute, private router: Router ) { }
 
   ngOnInit(): void {
     this.initForm();
@@ -76,6 +78,12 @@ export class BookFormComponent implements OnInit {
 
     this.submitBook.emit( newBook );
     this.bookForm?.reset();
+  }
+
+  cancel(): void {
+    //this.bookForm?.reset();
+    //this.router.navigate(['../..', 'books'], { relativeTo: this.route } );
+    this.cancelBook.emit();
   }
 
   private buildAuthorsArray( values: string[] ): FormArray {
